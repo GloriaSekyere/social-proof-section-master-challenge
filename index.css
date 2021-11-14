@@ -1,0 +1,30 @@
+:root {
+    --vdm: hsl(300, 43%, 22%);
+    --sp: hsl(333, 80%, 67%);
+    --dgm: hsl(303, 10%, 53%);
+    --lgm: hsl(300, 24%, 96%);
+    --w: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+main {
+    
+}
+
+#container {
+    
+}
+
+@media only screen and (min-width:1440px) {
+    
+}
