@@ -15,15 +15,110 @@
 body {
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
+    padding: 75px 0;
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    padding: 0 5px 25px;
+}
+
+#title {
+    color: var(--vdm);
+    text-align: center;
+    
 }
 
 main {
+    width: 90%;
+    margin: auto;
+}
+
+#introduction {
+    color: var(--dgm);
+    text-align: center;
+    line-height: 1.5;
+}
+
+#ratings {
+    margin-top: 45px;
+}
+
+.rating-block {
+    background-color: var(--lgm);
+    height: 75px;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    color: var(--vdm);
+    font-weight: 600
+}
+
+#reviews {
+    margin-top: 45px;
+}
+
+.review-block {
+    background-color: var(--vdm);
+    height: 250px;
+    margin: 15px 0;
+    padding: 30px;
+    border-radius: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
-#container {
-    
+.reviewer-details {
+    display: flex;
+    align-items: center;
 }
+
+.avatar-div {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name-div {
+    margin-left:25px; 
+}
+
+.username {
+    color: var(--w);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.verified {
+    color: var(--sp);
+    font-weight: 500;
+}
+
+.review-text {
+    color: var(--w);
+    line-height: 1.5;
+}
+
+
+
 
 @media only screen and (min-width:1440px) {
     
