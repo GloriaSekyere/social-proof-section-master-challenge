@@ -120,8 +120,10 @@ main {
 @media only screen and (min-width:1440px) {
 body {
     padding: 125px 0 0px;
-    background-image: url(images/bg-pattern-top-mobile.svg);
-    background-repeat: no-repeat;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: 0% 0%, 100% -275%;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
     overflow: hidden;
 }
 
@@ -129,8 +131,8 @@ main {
     width: 75%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #intro-section {
