@@ -120,11 +120,11 @@ main {
 @media only screen and (min-width:1440px) {
 body {
     padding: 125px 0 0px;
-    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-    background-position: 0% 0%, 100% -275%;
-    background-size: auto, auto;
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-position: 0% 0%, 100% 100%;
+    background-size: auto, 85% 85%;
     background-repeat: no-repeat, no-repeat;
-    overflow: hidden;
+    height: 100vh;
 }
 
 main {
