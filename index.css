@@ -127,14 +127,18 @@ body {
 }
 
 header {
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding: 0 5px 25px;
 }
 
 #title {
     color: var(--vdm);
-    text-align: center;
+    text-align: left;
+    float: left;
+    display: inline-block;
+    width: 500px;
+    font-size: 50px;
     
 }
 
@@ -147,10 +151,15 @@ main {
     color: var(--dgm);
     text-align: center;
     line-height: 1.5;
+    clear: both;
+    display: inline-block;
+    margin-top: 15px;
+    width: 500px;
 }
 
 #ratings {
     margin-top: 45px;
+    float: left;
 }
 
 .rating-block {
@@ -176,6 +185,7 @@ main {
     justify-content: space-between;
     position: relative;
     height: 300px;
+    clear: both;
 }
 
 .review-block {
